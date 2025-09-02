@@ -21,7 +21,7 @@ export default defineConfig({
     plugins: [
         (process.env.ANALYZE && analyzer()) || null,
         tanstackStart({
-            target: "vercel",
+            target: "node",
             spa: {
                 enabled: true
             },
