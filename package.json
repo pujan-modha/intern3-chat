@@ -152,8 +152,8 @@
         "vite-plugin-svgr": "^4.3.0",
         "vite-tsconfig-paths": "^5.1.4"
     },
-    "packageManager": "pnpm@10.6.4",
-    "pnpm": {
+    "packageManager": ">=bun@1.2.0",
+    "bun": {
         "onlyBuiltDependencies": ["@parcel/watcher", "esbuild", "sharp"]
     },
     "lint-staged": {
