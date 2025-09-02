@@ -44,10 +44,10 @@ function PrivacyPolicyPage() {
                         data:
                     </p>
                     <ul className="list-inside list-disc space-y-2 pl-4 text-muted-foreground">
-                        <li>
+                        {/* <li>
                             <strong>Web Analytics:</strong> Anonymous user data is collecting using
                             PostHog.
-                        </li>
+                        </li> */}
                         <li>
                             <strong>Authentication Data:</strong> When you sign up, we collect
                             necessary information such as your email address.
