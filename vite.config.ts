@@ -21,7 +21,7 @@ export default defineConfig({
     plugins: [
         (process.env.ANALYZE && analyzer()) || null,
         tanstackStart({
-            target: "node",
+            target: "bun",
             spa: {
                 enabled: true
             },
